@@ -13,12 +13,15 @@ This is the implementation of KerRead proposed in our paper.
 * scipy=1.11.1
 * scikit-learn=1.3.0 
 * networkx=2.8.8
-### Quick Start
-Using GCN as the backbone, conduct graph classification task in DD dataset, please run:
+### Quick Start （Reproduce Experiment）
+Using GAT as the backbone, conduct graph classification task in DD, NCI1 and MUTAG dataset, please run:
 ```
-python main.py --dataset DD --gnn gcn --read_op kr --kernel gaussian
+python main.py --dataset DD --gnn gat --read_op kr --kernel gaussian
+python main.py --dataset NCI1 --gnn gat --read_op kr --kernel gaussian
+python main.py --dataset MUTAG --gnn gat --read_op kr --kernel gaussian
 ```
-Using InfoGraph as the backbone, conduct graph clustering task in DD dataset, please run:
+Using GCN as the backbone, conduct graph classification task in MUTAG dataset, please run:
 ```
-python infograph.py --dataset DD  --read_op kr --kernel gaussian
-```# KerRead-reproduced
+python main.py --dataset MUTAG --gnn gcn --read_op kr --kernel gaussian
+```
+
