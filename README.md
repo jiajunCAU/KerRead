@@ -2,7 +2,7 @@
 This is the implementation of KerRead proposed in our paper:
 
 Jiajun Yu+, Zhihao Wu+, Jinyu Cai, Adele Lu Jia* and Jicong Fan*. Kernel Readout for Graph Neural Networks, IJCAI 2024.
-<img src="image/KerRead.png" width="500"/>
+<img src="image/KerRead.png" width="1500"/>
 
 ### Requirement
 * python=3.9.16
