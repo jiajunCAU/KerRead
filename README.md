@@ -1,7 +1,8 @@
 ## Kernel Readout for Graph Neural Networks
 This is the implementation of KerRead proposed in our paper:
 
-Jiajun Yu+, Zhihao Wu+, Jinyu Cai, Adele Lu Jia* and Jicong Fan*. Kernel Readout for Graph Neural Networks, IJCAI 2024.
+Jiajun Yu*, Zhihao Wu*, Jinyu Cai, Adele Lu Jia+ and Jicong Fan+. Kernel Readout for Graph Neural Networks, IJCAI 2024. 
+(* and + denotes to the equal contribution and Corresponding authors.}
 <img src="image/KerRead.png" width="1500"/>
 
 ### Requirement
